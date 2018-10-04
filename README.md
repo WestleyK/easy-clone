@@ -1,4 +1,4 @@
-## Simple script to make it easier when cloning repos
+## A simple script to make it easier when cloning repos.
 
 <br>
 <br>
@@ -10,7 +10,7 @@
 
 ### Quick and easy install:
 
-Paste or type this in your terminal:
+Copy-paste or type this in your terminal:
 ```
 curl https://raw.githubusercontent.com/WestleyK/easy-clone/master/easy-install.sh | sh
 sudo mv hubget /usr/local/bin/
@@ -23,14 +23,14 @@ Then to test it, type:
 ```
 hubget <TAB> <TAB>
 ```
-And you should see some stuff like:
+You should see some stuff like:
 ```
 WestleyK/arduino-key-pad         WestleyK/drive-speed-test        WestleyK/pi-backlight            golang/dep
 WestleyK/drive-mount             WestleyK/easy-clone              WestleyK/rpi-brightness          WestleyK/ssh-watcher
 WestleyK/drive-mounting-script   WestleyK/install-script
 ```
 
-If you don't, then try to close then reopen the terminal and it should work now.
+If you don't, close and then reopen the terminal and it should work now.
 If it still doesn't work, then please open an issue.
 
 <br>
@@ -50,14 +50,14 @@ source ~/.bashrc
 
 ## Usage:
 
-And now you can clone repo much easier. <br>
-Heres a example: <br>
+And now you can clone a repo much easier. <br>
+Here's a example: <br>
 
 ```
 hubget WestleyK/rpi-brightness
 ```
-See, pretty simple. <br>
-But now when you want to clone it again, just use TAB: <br>
+See? It's pretty simple! <br>
+When you want to clone it again, just use TAB: <br>
 
 ```
 hubget WestleyK/rp <TAB>
